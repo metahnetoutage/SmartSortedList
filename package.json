@@ -1,0 +1,14 @@
+{
+  "name": "smartsortedlist",
+  "module": "smartSortedList.js",
+  "type": "module",
+  "scripts": {
+    "start": "bun run smartSortedList.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
