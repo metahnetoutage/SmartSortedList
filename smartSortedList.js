@@ -1,18 +1,18 @@
 /**
- * Goal:Implement ascending and descsending smart insertion of data, such that the array be completely sorted.
+ * Goal:Implement ascending and descending smart insertion of data, such that the array be completely sorted.
 
  * Given variables low med high
- * Computer their value every time new data comes in.
+ * Compute their values each time new data comes in.
  * 
- * Apply special cases 0 elements, 1 elements, 2 elements and 3 elements first.
- * Once 3 elements are surpassed apply general case.
+ * Apply special cases 0 elements, 1 element, 2 elements and 3 elements first.
+ * Once we surpassed 3 elements, apply the general cases.
  * 
- * If more than 3 elements are present recalculate mid and high first.
+ * If more than 3 elements are present, first recalculate mid and high.
  * Then gauge which part of array the algorithm must focus on.
  * 
- * Each loop in tern has low med and high internal variables, defined outside that loop.
+ * Each loop in turn has low1 med1 and high1 internal variables, defined outside that loop.
  * 
- * low mid and high are recomputed at each iteration while algorithm figures where to place
+ * low1 mid1 and high1 are recomputed at each iteration while algorithm figures where to place
  * data based on the magnitude of the value with respect to the present values in the array.
  * 
  * Once the spot has been identified, data is inserted at that spot.
